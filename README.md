@@ -1,4 +1,3 @@
-
 # SIMVISO 源码解读分享系列：
 
 #### Java编程方法论-响应式篇-RxJava 分享视频 已完结 
@@ -30,6 +29,14 @@ B站：https://www.bilibili.com/video/av45556406/
 B站：https://www.bilibili.com/video/av43230997
 
 油管：https://www.youtube.com/watch?v=ZZnCI8xaTRo&list=PL95Ey4rht799NVLgQiSV9skTqY6VuspIk
+
+
+
+应一些小伙伴的要求，加个赞赏途径，谢谢大家的支持：
+
+![1552756959199](assets/1552756959199.png)
+
+
 
 ## Java编程方法论-响应式 之 Rxjava篇 
 
