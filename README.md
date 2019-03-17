@@ -283,6 +283,10 @@ Spring官方以及龙之春力荐
 
 05 reactor-netty中针对netty中EventLoopGroup的封装:https://www.bilibili.com/video/av45556406/?p=5
 
+06 reactor-netty中 DisposableServer 的设计实现1:https://www.bilibili.com/video/av45556406/?p=6
+
+07 DisposableServer 的设计实现2及相关技巧在SpringcloudFunction的使用:https://www.bilibili.com/video/av45556406/?p=7
+
 待续...
 
 ## Java编程方法论-JDK 篇 之 NIO 分享
