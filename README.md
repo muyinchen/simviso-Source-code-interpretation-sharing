@@ -287,6 +287,18 @@ Spring官方以及龙之春力荐
 
 07 DisposableServer 的设计实现2及相关技巧在SpringcloudFunction的使用:https://www.bilibili.com/video/av45556406/?p=7
 
+08 函数式技巧的使用.mp4:https://www.bilibili.com/video/av45556406/?p=8
+
+09 Connection的设定之netty使用时整体设计调用思路概览上.mp4:https://www.bilibili.com/video/av45556406/?p=9
+
+10 Connection的设定之netty使用时整体设计调用思路概览下.mp4:https://www.bilibili.com/video/av45556406/?p=10
+
+11 从jdk 函数式到netty的上下文设计编程实战解读 01.mp4:https://www.bilibili.com/video/av45556406/?p=11
+
+12 从jdk 函数式到netty的上下文设计编程实战解读 02.mp4:https://www.bilibili.com/video/av45556406/?p=12
+
+13 从Netty到Spring Reactor的上下文设计编程实战解读.mp4:https://www.bilibili.com/video/av45556406/?p=13
+
 待续...
 
 ## Java编程方法论-JDK 篇 之 NIO 分享
