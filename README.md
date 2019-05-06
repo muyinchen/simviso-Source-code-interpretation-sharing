@@ -30,7 +30,9 @@ B站：https://www.bilibili.com/video/av43230997
 
 油管：https://www.youtube.com/watch?v=ZZnCI8xaTRo&list=PL95Ey4rht799NVLgQiSV9skTqY6VuspIk
 
+#### Java编程方法论-JDK 篇 之 JUC 分享  待上传
 
+#### Java编程方法论-Netty篇  待上传
 
 所有直播分享均在QQ群进行，同时也欢迎大家加群提出建议：
 
@@ -350,3 +352,9 @@ Spring官方以及龙之春力荐
 
 
 待续...
+
+
+
+## Java编程方法论-JDK 篇 之 JUC 分享
+
+## Java编程方法论-Netty篇 
