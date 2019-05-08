@@ -32,7 +32,11 @@ B站：https://www.bilibili.com/video/av43230997
 
 #### Java编程方法论-JDK 篇 之 JUC 分享  待上传
 
-#### Java编程方法论-Netty篇  待上传
+#### Java编程方法论-Netty篇  在分享
+
+B站：https://www.bilibili.com/video/av50169264
+
+油管：https://www.youtube.com/watch?v=AHNW9YCF9aI&list=PL95Ey4rht798WiqkvGYChWdUtHie0j-IU
 
 所有直播分享均在QQ群进行，同时也欢迎大家加群提出建议：
 
@@ -289,17 +293,17 @@ Spring官方以及龙之春力荐
 
 07 DisposableServer 的设计实现2及相关技巧在SpringcloudFunction的使用:https://www.bilibili.com/video/av45556406/?p=7
 
-08 函数式技巧的使用.mp4:https://www.bilibili.com/video/av45556406/?p=8
+08 函数式技巧的使用:https://www.bilibili.com/video/av45556406/?p=8
 
-09 Connection的设定之netty使用时整体设计调用思路概览上.mp4:https://www.bilibili.com/video/av45556406/?p=9
+09 Connection的设定之netty使用时整体设计调用思路概览上:https://www.bilibili.com/video/av45556406/?p=9
 
-10 Connection的设定之netty使用时整体设计调用思路概览下.mp4:https://www.bilibili.com/video/av45556406/?p=10
+10 Connection的设定之netty使用时整体设计调用思路概览下:https://www.bilibili.com/video/av45556406/?p=10
 
-11 从jdk 函数式到netty的上下文设计编程实战解读 01.mp4:https://www.bilibili.com/video/av45556406/?p=11
+11 从jdk 函数式到netty的上下文设计编程实战解读 01:https://www.bilibili.com/video/av45556406/?p=11
 
-12 从jdk 函数式到netty的上下文设计编程实战解读 02.mp4:https://www.bilibili.com/video/av45556406/?p=12
+12 从jdk 函数式到netty的上下文设计编程实战解读 02:https://www.bilibili.com/video/av45556406/?p=12
 
-13 从Netty到Spring Reactor的上下文设计编程实战解读.mp4:https://www.bilibili.com/video/av45556406/?p=13
+13 从Netty到Spring Reactor的上下文设计编程实战解读:https://www.bilibili.com/video/av45556406/?p=13
 
 待续...
 
@@ -329,25 +333,25 @@ Spring官方以及龙之春力荐
 
 12 理解netty前置之手把手带你写一个nio服务器V1版:https://www.bilibili.com/video/av43230997/?p=12
 
-13 SelectionKey解读1.mp4:https://www.bilibili.com/video/av43230997/?p=13
+13 SelectionKey解读1:https://www.bilibili.com/video/av43230997/?p=13
 
-14 SelectionKey解读2.mp4:https://www.bilibili.com/video/av43230997/?p=14
+14 SelectionKey解读2:https://www.bilibili.com/video/av43230997/?p=14
 
-15 SelectionKey解读3.mp4:https://www.bilibili.com/video/av43230997/?p=15
+15 SelectionKey解读3:https://www.bilibili.com/video/av43230997/?p=15
 
-16 SelectionKey解读4.mp4:https://www.bilibili.com/video/av43230997/?p=16
+16 SelectionKey解读4:https://www.bilibili.com/video/av43230997/?p=16
 
-17 Selector探究1.mp4:https://www.bilibili.com/video/av43230997/?p=17
+17 Selector探究1:https://www.bilibili.com/video/av43230997/?p=17
 
-18 Selector探究2.mp4:https://www.bilibili.com/video/av43230997/?p=18
+18 Selector探究2:https://www.bilibili.com/video/av43230997/?p=18
 
-19 Selector探究3.mp4:https://www.bilibili.com/video/av43230997/?p=19
+19 Selector探究3:https://www.bilibili.com/video/av43230997/?p=19
 
-20 Selector探究4 只要24.11.mp4:https://www.bilibili.com/video/av43230997/?p=20
+20 Selector探究4 只要24.11:https://www.bilibili.com/video/av43230997/?p=20
 
-21 Selector探究5.mp4:https://www.bilibili.com/video/av43230997/?p=21
+21 Selector探究5:https://www.bilibili.com/video/av43230997/?p=21
 
-22 Selector探究6.mp4:https://www.bilibili.com/video/av43230997/?p=22
+22 Selector探究6:https://www.bilibili.com/video/av43230997/?p=22
 
 
 
@@ -358,3 +362,27 @@ Spring官方以及龙之春力荐
 ## Java编程方法论-JDK 篇 之 JUC 分享
 
 ## Java编程方法论-Netty篇 
+
+01 netty源码解读之源码框架思路1 :https://www.bilibili.com/video/av50169264/?p=1
+
+02 netty源码解读之源码框架思路2 :https://www.bilibili.com/video/av50169264/?p=2
+
+03 通过netty来解读future的玩法技巧 :https://www.bilibili.com/video/av50169264/?p=3
+
+04 Connection的设定之netty使用时整体设计调用思路概览上 :https://www.bilibili.com/video/av50169264/?p=4
+
+05 Connection的设定之netty使用时整体设计调用思路概览下 :https://www.bilibili.com/video/av50169264/?p=5
+
+06 从jdk 函数式到netty的上下文设计编程实战解读 01 :https://www.bilibili.com/video/av50169264/?p=6
+
+07 从jdk 函数式到netty的上下文设计编程实战解读 02 :https://www.bilibili.com/video/av50169264/?p=7
+
+08 netty对于eventloop的设计实现思路的解读01 :https://www.bilibili.com/video/av50169264/?p=8
+
+09 netty对于eventloop的设计实现思路的解读02 :https://www.bilibili.com/video/av50169264/?p=9
+
+10 netty对于eventloop的设计实现思路的解读03 :https://www.bilibili.com/video/av50169264/?p=10
+
+11 netty的Channel初始化到handler的执行进行综合总结1 :https://www.bilibili.com/video/av50169264/?p=11
+
+12 netty的Channel初始化到handler的执行进行综合总结2 :https://www.bilibili.com/video/av50169264/?p=12
