@@ -78,7 +78,9 @@ https://muyinchen.github.io/tags/Spring/
 
 所有直播分享均在QQ群进行，同时也欢迎大家加群提出建议：
 
-响应式编程交流QQ群:![Snipaste_2019-07-30_09-07-16](README.assets/Snipaste_2019-07-30_09-07-16.png)
+响应式编程交流QQ群:
+
+![Snipaste_2019-07-30_09-07-16](README.assets/Snipaste_2019-07-30_09-07-16.png)
 
  
 
