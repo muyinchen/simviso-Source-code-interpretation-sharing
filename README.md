@@ -60,6 +60,10 @@ B站：https://www.bilibili.com/video/av50169264
 
 [点此查看具体目录](./simviso出品国外顶级开发者分享视频翻译.md)
 
+#### **国外精选视频课（翻译）**
+
+[点此查看具体目录](./国外精选视频课翻译.md)
+
 #### Spring 源码解读博客文章：
 
 https://muyinchen.github.io/tags/Spring/
