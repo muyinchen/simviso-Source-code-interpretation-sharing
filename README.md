@@ -4,7 +4,7 @@
 
 相关书籍已出版：https://item.m.jd.com/product/12615848.html
 
-书籍封面：
+书籍 封面：
 
 ![](assets/5ce6355bN6b15cb5d.jpg)
 
