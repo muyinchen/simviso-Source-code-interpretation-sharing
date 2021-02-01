@@ -10,7 +10,6 @@
 
 bilibili：https://www.bilibili.com/video/av34537840
 
-油管:https://www.youtube.com/playlist?list=PL95Ey4rht798MMCusPzIW7VYD1xaKJVjc
 
 [点此查看具体目录](./Java编程方法论-响应式之Rxjava篇.md)
 
@@ -18,19 +17,9 @@ bilibili：https://www.bilibili.com/video/av34537840
 
 B站：<https://www.bilibili.com/video/av35326911>
 
-油管：https://www.youtube.com/playlist?list=PL95Ey4rht7980EH8yr7SLBvj9XSE1ggdy
 
 [点此查看具体目录](./Java编程方法论-响应式之Reactor篇.md)
 
-#### Java编程方法论-响应式篇-Reactor-Netty 分享视频  在分享
-
-相关博文：https://juejin.im/user/59c7640851882578e00ddf90/posts
-
-视频分享：
-
-B站：https://www.bilibili.com/video/av45556406/
-
-油管：https://www.youtube.com/watch?v=6qLh2L75KdM&list=PL95Ey4rht79-ISlb_Yr9ToaEI0K8ARmH6
 
 [点此查看具体目录](./Java编程方法论-响应式之Reactor-Netty篇.md)
 
@@ -40,7 +29,7 @@ B站：https://www.bilibili.com/video/av45556406/
 
 B站：https://www.bilibili.com/video/av43230997
 
-油管：https://www.youtube.com/watch?v=ZZnCI8xaTRo&list=PL95Ey4rht799NVLgQiSV9skTqY6VuspIk
+
 
 [点此查看具体目录](./Java编程方法论-JDK篇之NIO.md)
 
@@ -52,7 +41,7 @@ B站：https://www.bilibili.com/video/av43230997
 
 B站：https://www.bilibili.com/video/av50169264
 
-油管：https://www.youtube.com/watch?v=AHNW9YCF9aI&list=PL95Ey4rht798WiqkvGYChWdUtHie0j-IU
+
 
 [点此查看具体目录](./Java编程方法论-Netty篇.md)
 
@@ -60,19 +49,17 @@ B站：https://www.bilibili.com/video/av50169264
 
 [点此查看具体目录](./simviso出品国外顶级开发者分享视频翻译.md)
 
-#### **国外精选视频课（翻译）**
+#### simviso出品国外顶级高校课程翻译
 
-[点此查看具体目录](./国外精选视频课翻译.md)
+[点此查看具体目录](./simviso出品国外顶级高校课程翻译.md)
+
+
 
 #### Spring 源码解读博客文章：
 
 https://muyinchen.github.io/tags/Spring/
 
 
-
-#### 后端圈技术问题解答精华集锦，不定期更新中
-
-[点此查看具体](./后端圈问答全集.html)
 
 **其中Spring Reactor 分享视频获得了Spring 开发者的认可并被Spring官方推特转发：**
 
