@@ -1,0 +1,124 @@
+import io.github.httpbuilderng.http.HttpTask
+import java.time.LocalDateTime
+import java.time.format.DateTimeFormatter
+
+plugins {
+    id 'org.springframework.boot' version '2.1.7.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.8.RELEASE'
+    id 'java'
+    id "io.github.http-builder-ng.http-plugin" version "0.1.1"
+}
+
+group = 'com.jarrvis'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-data-mongodb-reactive'
+    implementation 'org.springframework.boot:spring-boot-starter-data-rest'
+    implementation 'org.springframework.boot:spring-boot-starter-hateoas'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.springframework.boot:spring-boot-starter-webflux'
+    compile group: 'io.vavr', name: 'vavr', version: '0.10.2'
+    compile 'io.springfox:springfox-swagger-ui:2.9.2'
+    compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.9.2'
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+    annotationProcessor group: 'io.vavr', name: 'vavr-match-processor', version: '0.10.2'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'io.projectreactor:reactor-test'
+    testImplementation group: 'de.flapdoodle.embed', name: 'de.flapdoodle.embed.mongo'
+    testCompile group: 'org.spockframework', name: 'spock-core', version: '1.3-groovy-2.5'
+    testCompile group: 'org.spockframework', name: 'spock-spring', version: '1.3-groovy-2.5'
+}
+
+
+task devInit(type: HttpTask) {
+    config {
+        request.uri = 'http://localhost:8080' //configure here
+        request.contentType = 'application/json'
+        request.auth.basic 'admin', 'admin'
+    }
+
+    // Add 3 screening rooms: Dream, Narnia
+    post {
+        request.uri.path = '/rooms'
+        request.body = [
+                name       : "Dream",
+                rows       : 15,
+                seatsPerRow: 20
+        ]
+    }
+    post {
+        request.uri.path = '/rooms'
+        request.body = [
+                name       : "Narnia",
+                rows       : 10,
+                seatsPerRow: 15
+        ]
+    }
+    post {
+        request.uri.path = '/rooms'
+        request.body = [
+                name       : "Hogvards",
+                rows       : 12,
+                seatsPerRow: 18
+        ]
+    }
+
+    // Add 3 movies: Joker, Parasite, Dolor y Gloria
+    post {
+        request.uri.path = '/movies'
+        request.body = [
+                name              : "Joker",
+                description       : "Joker",
+                duration          : "120"
+        ]
+    }
+    post {
+        request.uri.path = '/movies'
+        request.body = [
+                name              : "Parasite",
+                description       : "Parasite",
+                duration          : "150"
+        ]
+    }
+    post {
+        request.uri.path = '/movies'
+        request.body = [
+                name              : "Dolor y Gloria",
+                description       : "Dolor y Gloria",
+                duration          : "130"
+        ]
+    }
+
+    // Add 2 screenings: Joker -> Dream, Parasite -> Narnia
+    post {
+        request.uri.path = '/screenings'
+        request.body = [
+                movieName: "Joker",
+                roomName : "Dream",
+                startTime: LocalDateTime.now().plusDays(1).format(DateTimeFormatter.ISO_DATE_TIME)
+        ]
+    }
+    post {
+        request.uri.path = '/screenings'
+        request.body = [
+                movieName: "Parasite",
+                roomName : "Narnia",
+                startTime: LocalDateTime.now().plusDays(2).format(DateTimeFormatter.ISO_DATE_TIME)
+        ]
+    }
+
+}
